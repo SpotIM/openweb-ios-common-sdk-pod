@@ -1,1 +1,1 @@
-# openweb-ios-common-sdk-pod
+# OpenWeb Common SDK for iOS 🚀
