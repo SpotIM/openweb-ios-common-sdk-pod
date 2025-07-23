@@ -561,6 +561,422 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "OWIAUSettingsAdHeightMode",
+        "printedName": "OWIAUSettingsAdHeightMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "default",
+            "printedName": "default",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenWebCommon.OWIAUSettingsAdHeightMode.Type) -> OpenWebCommon.OWIAUSettingsAdHeightMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUSettingsAdHeightMode",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                    "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUSettingsAdHeightMode",
+                        "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                        "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO7defaultyA2CmF",
+            "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO7defaultyA2CmF",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fixed",
+            "printedName": "fixed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenWebCommon.OWIAUSettingsAdHeightMode.Type) -> OpenWebCommon.OWIAUSettingsAdHeightMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUSettingsAdHeightMode",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                    "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUSettingsAdHeightMode",
+                        "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                        "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO5fixedyA2CmF",
+            "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO5fixedyA2CmF",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dynamic",
+            "printedName": "dynamic",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenWebCommon.OWIAUSettingsAdHeightMode.Type) -> OpenWebCommon.OWIAUSettingsAdHeightMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUSettingsAdHeightMode",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                    "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUSettingsAdHeightMode",
+                        "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                        "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO7dynamicyA2CmF",
+            "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO7dynamicyA2CmF",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUSettingsAdHeightMode",
+                "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUSettingsAdHeightMode",
+                "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO2eeoiySbAC_ACtFZ",
+            "moduleName": "OpenWebCommon",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OpenWebCommon.OWIAUSettingsAdHeightMode]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUSettingsAdHeightMode",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                    "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO8allCasesSayACGvpZ",
+            "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO8allCasesSayACGvpZ",
+            "moduleName": "OpenWebCommon",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OpenWebCommon.OWIAUSettingsAdHeightMode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUSettingsAdHeightMode",
+                        "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                        "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO8allCasesSayACGvgZ",
+                "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO8allCasesSayACGvgZ",
+                "moduleName": "OpenWebCommon",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUSettingsAdHeightMode",
+                "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO6encode2toys7Encoder_p_tKF",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO9hashValueSivp",
+            "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO9hashValueSivp",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO9hashValueSivg",
+                "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO9hashValueSivg",
+                "moduleName": "OpenWebCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO4hash4intoys6HasherVz_tF",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO",
+        "mangledName": "$s13OpenWebCommon25OWIAUSettingsAdHeightModeO",
+        "moduleName": "OpenWebCommon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OpenWebCommon.OWIAUSettingsAdHeightMode]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUSettingsAdHeightMode",
+                        "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                        "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -614,43 +1030,6 @@
           },
           {
             "kind": "Var",
-            "name": "preConversationAd",
-            "printedName": "preConversationAd",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(OpenWebCommon.OWIAUTmsComponent.Type) -> OpenWebCommon.OWIAUTmsComponent",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OWIAUTmsComponent",
-                    "printedName": "OpenWebCommon.OWIAUTmsComponent",
-                    "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "OpenWebCommon.OWIAUTmsComponent.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OWIAUTmsComponent",
-                        "printedName": "OpenWebCommon.OWIAUTmsComponent",
-                        "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:13OpenWebCommon17OWIAUTmsComponentO17preConversationAdyA2CmF",
-            "mangledName": "$s13OpenWebCommon17OWIAUTmsComponentO17preConversationAdyA2CmF",
-            "moduleName": "OpenWebCommon"
-          },
-          {
-            "kind": "Var",
             "name": "inConversationAds",
             "printedName": "inConversationAds",
             "children": [
@@ -687,6 +1066,43 @@
             "moduleName": "OpenWebCommon"
           },
           {
+            "kind": "Var",
+            "name": "addOn",
+            "printedName": "addOn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(OpenWebCommon.OWIAUTmsComponent.Type) -> OpenWebCommon.OWIAUTmsComponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUTmsComponent",
+                    "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                    "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "OpenWebCommon.OWIAUTmsComponent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUTmsComponent",
+                        "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                        "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13OpenWebCommon17OWIAUTmsComponentO5addOnyA2CmF",
+            "mangledName": "$s13OpenWebCommon17OWIAUTmsComponentO5addOnyA2CmF",
+            "moduleName": "OpenWebCommon"
+          },
+          {
             "kind": "Function",
             "name": "==",
             "printedName": "==(_:_:)",
@@ -717,6 +1133,117 @@
             "static": true,
             "implicit": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUTmsComponent",
+                "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13OpenWebCommon17OWIAUTmsComponentO4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13OpenWebCommon17OWIAUTmsComponentO4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon17OWIAUTmsComponentO6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13OpenWebCommon17OWIAUTmsComponentO6encode2toys7Encoder_p_tKF",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OpenWebCommon.OWIAUTmsComponent]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUTmsComponent",
+                    "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                    "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon17OWIAUTmsComponentO8allCasesSayACGvpZ",
+            "mangledName": "$s13OpenWebCommon17OWIAUTmsComponentO8allCasesSayACGvpZ",
+            "moduleName": "OpenWebCommon",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OpenWebCommon.OWIAUTmsComponent]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUTmsComponent",
+                        "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                        "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon17OWIAUTmsComponentO8allCasesSayACGvgZ",
+                "mangledName": "$s13OpenWebCommon17OWIAUTmsComponentO8allCasesSayACGvgZ",
+                "moduleName": "OpenWebCommon",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -811,6 +1338,50 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OpenWebCommon.OWIAUTmsComponent]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUTmsComponent",
+                        "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                        "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
           },
           {
             "kind": "Conformance",
@@ -3112,6 +3683,764 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "OWIAUIndexConvertor",
+        "printedName": "OWIAUIndexConvertor",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getSlot",
+            "printedName": "getSlot(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUCampaignIdentifier",
+                "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
+                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon19OWIAUIndexConvertorC7getSlot4fromAA23OWIAUCampaignIdentifierVSi_tFZ",
+            "mangledName": "$s13OpenWebCommon19OWIAUIndexConvertorC7getSlot4fromAA23OWIAUCampaignIdentifierVSi_tFZ",
+            "moduleName": "OpenWebCommon",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIndex",
+            "printedName": "getIndex(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUCampaignIdentifier",
+                "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
+                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon19OWIAUIndexConvertorC8getIndex4fromSiAA23OWIAUCampaignIdentifierV_tFZ",
+            "mangledName": "$s13OpenWebCommon19OWIAUIndexConvertorC8getIndex4fromSiAA23OWIAUCampaignIdentifierV_tFZ",
+            "moduleName": "OpenWebCommon",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13OpenWebCommon19OWIAUIndexConvertorC",
+        "mangledName": "$s13OpenWebCommon19OWIAUIndexConvertorC",
+        "moduleName": "OpenWebCommon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OWIAUCampaignIdentifier",
+        "printedName": "OWIAUCampaignIdentifier",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "row",
+            "printedName": "row",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV3rowSivp",
+            "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV3rowSivp",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV3rowSivg",
+                "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV3rowSivg",
+                "moduleName": "OpenWebCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "column",
+            "printedName": "column",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV6columnSivp",
+            "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV6columnSivp",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV6columnSivg",
+                "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV6columnSivg",
+                "moduleName": "OpenWebCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(row:column:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUCampaignIdentifier",
+                "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
+                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV3row6columnACSi_Sitcfc",
+            "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV3row6columnACSi_Sitcfc",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUCampaignIdentifier",
+                "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
+                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV6encode2toys7Encoder_p_tKF",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUCampaignIdentifier",
+                "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
+                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUCampaignIdentifier",
+                "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
+                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV2eeoiySbAC_ACtFZ",
+            "moduleName": "OpenWebCommon",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV9hashValueSivp",
+            "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV9hashValueSivp",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV9hashValueSivg",
+                "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV9hashValueSivg",
+                "moduleName": "OpenWebCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV4hash4intoys6HasherVz_tF",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV",
+        "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV",
+        "moduleName": "OpenWebCommon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OWIAUMonetizationConfig",
+        "printedName": "OWIAUMonetizationConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "adsFrequency",
+            "printedName": "adsFrequency",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequencySiSgvp",
+            "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequencySiSgvp",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequencySiSgvg",
+                "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequencySiSgvg",
+                "moduleName": "OpenWebCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "componentToSlotMap",
+            "printedName": "componentToSlotMap",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[OpenWebCommon.OWIAUTmsComponent : [OpenWebCommon.OWIAUCampaignIdentifier]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUTmsComponent",
+                    "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                    "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OpenWebCommon.OWIAUCampaignIdentifier]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUCampaignIdentifier",
+                        "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
+                        "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV18componentToSlotMapSDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGvp",
+            "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV18componentToSlotMapSDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGvp",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[OpenWebCommon.OWIAUTmsComponent : [OpenWebCommon.OWIAUCampaignIdentifier]]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUTmsComponent",
+                        "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                        "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[OpenWebCommon.OWIAUCampaignIdentifier]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "OWIAUCampaignIdentifier",
+                            "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
+                            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV18componentToSlotMapSDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGvg",
+                "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV18componentToSlotMapSDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGvg",
+                "moduleName": "OpenWebCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(adsFrequency:componentToSlotMap:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUMonetizationConfig",
+                "printedName": "OpenWebCommon.OWIAUMonetizationConfig",
+                "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[OpenWebCommon.OWIAUTmsComponent : [OpenWebCommon.OWIAUCampaignIdentifier]]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUTmsComponent",
+                    "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                    "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[OpenWebCommon.OWIAUCampaignIdentifier]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OWIAUCampaignIdentifier",
+                        "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
+                        "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequency18componentToSlotMapACSiSg_SDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGtcfc",
+            "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequency18componentToSlotMapACSiSg_SDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGtcfc",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUMonetizationConfig",
+                "printedName": "OpenWebCommon.OWIAUMonetizationConfig",
+                "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV6encode2toys7Encoder_p_tKF",
+            "moduleName": "OpenWebCommon",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "shouldShowTmsAd",
+            "printedName": "shouldShowTmsAd(component:index:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUTmsComponent",
+                "printedName": "OpenWebCommon.OWIAUTmsComponent",
+                "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV15shouldShowTmsAd9component5indexSbAA17OWIAUTmsComponentO_SitF",
+            "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV15shouldShowTmsAd9component5indexSbAA17OWIAUTmsComponentO_SitF",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV",
+        "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV",
+        "moduleName": "OpenWebCommon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -3159,6 +4488,48 @@
                 "declKind": "Accessor",
                 "usr": "s:13OpenWebCommon23OWIAUAdSettingsProtocolP13configurationAA0D13ConfigurationOvg",
                 "mangledName": "$s13OpenWebCommon23OWIAUAdSettingsProtocolP13configurationAA0D13ConfigurationOvg",
+                "moduleName": "OpenWebCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : OpenWebCommon.OWIAUAdSettingsProtocol>",
+                "sugared_genericSig": "<Self where Self : OpenWebCommon.OWIAUAdSettingsProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "heightMode",
+            "printedName": "heightMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUSettingsAdHeightMode",
+                "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon23OWIAUAdSettingsProtocolP10heightModeAA021OWIAUSettingsAdHeightH0Ovp",
+            "mangledName": "$s13OpenWebCommon23OWIAUAdSettingsProtocolP10heightModeAA021OWIAUSettingsAdHeightH0Ovp",
+            "moduleName": "OpenWebCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUSettingsAdHeightMode",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                    "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon23OWIAUAdSettingsProtocolP10heightModeAA021OWIAUSettingsAdHeightH0Ovg",
+                "mangledName": "$s13OpenWebCommon23OWIAUAdSettingsProtocolP10heightModeAA021OWIAUSettingsAdHeightH0Ovg",
                 "moduleName": "OpenWebCommon",
                 "genericSig": "<τ_0_0 where τ_0_0 : OpenWebCommon.OWIAUAdSettingsProtocol>",
                 "sugared_genericSig": "<Self where Self : OpenWebCommon.OWIAUAdSettingsProtocol>",
@@ -3429,9 +4800,94 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "heightMode",
+            "printedName": "heightMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUSettingsAdHeightMode",
+                "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon15OWIAUAdSettingsC10heightModeAA021OWIAUSettingsAdHeightG0Ovp",
+            "mangledName": "$s13OpenWebCommon15OWIAUAdSettingsC10heightModeAA021OWIAUSettingsAdHeightG0Ovp",
+            "moduleName": "OpenWebCommon",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUSettingsAdHeightMode",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                    "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon15OWIAUAdSettingsC10heightModeAA021OWIAUSettingsAdHeightG0Ovg",
+                "mangledName": "$s13OpenWebCommon15OWIAUAdSettingsC10heightModeAA021OWIAUSettingsAdHeightG0Ovg",
+                "moduleName": "OpenWebCommon",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUSettingsAdHeightMode",
+                    "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                    "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon15OWIAUAdSettingsC10heightModeAA021OWIAUSettingsAdHeightG0Ovs",
+                "mangledName": "$s13OpenWebCommon15OWIAUAdSettingsC10heightModeAA021OWIAUSettingsAdHeightG0Ovs",
+                "moduleName": "OpenWebCommon",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon15OWIAUAdSettingsC10heightModeAA021OWIAUSettingsAdHeightG0OvM",
+                "mangledName": "$s13OpenWebCommon15OWIAUAdSettingsC10heightModeAA021OWIAUSettingsAdHeightG0OvM",
+                "moduleName": "OpenWebCommon",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(configuration:)",
+            "printedName": "init(configuration:heightMode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3444,11 +4900,18 @@
                 "name": "OWIAUAdConfiguration",
                 "printedName": "OpenWebCommon.OWIAUAdConfiguration",
                 "usr": "s:13OpenWebCommon20OWIAUAdConfigurationO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "OWIAUSettingsAdHeightMode",
+                "printedName": "OpenWebCommon.OWIAUSettingsAdHeightMode",
+                "hasDefaultArg": true,
+                "usr": "s:13OpenWebCommon25OWIAUSettingsAdHeightModeO"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:13OpenWebCommon15OWIAUAdSettingsC13configurationAcA0D13ConfigurationO_tcfc",
-            "mangledName": "$s13OpenWebCommon15OWIAUAdSettingsC13configurationAcA0D13ConfigurationO_tcfc",
+            "usr": "s:13OpenWebCommon15OWIAUAdSettingsC13configuration10heightModeAcA0D13ConfigurationO_AA021OWIAUSettingsAdHeightH0Otcfc",
+            "mangledName": "$s13OpenWebCommon15OWIAUAdSettingsC13configuration10heightModeAcA0D13ConfigurationO_AA021OWIAUSettingsAdHeightH0Otcfc",
             "moduleName": "OpenWebCommon",
             "declAttributes": [
               "AccessControl"
@@ -3530,6 +4993,41 @@
             "declKind": "Func",
             "usr": "s:13OpenWebCommon13OWIAUDelegateP13getPageViewId04postH0S2S_tF",
             "mangledName": "$s13OpenWebCommon13OWIAUDelegateP13getPageViewId04postH0S2S_tF",
+            "moduleName": "OpenWebCommon",
+            "genericSig": "<τ_0_0 where τ_0_0 : OpenWebCommon.OWIAUDelegate>",
+            "sugared_genericSig": "<Self where Self : OpenWebCommon.OWIAUDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onNewConfig",
+            "printedName": "onNewConfig(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OpenWebCommon.OWIAUMonetizationConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OWIAUMonetizationConfig",
+                    "printedName": "OpenWebCommon.OWIAUMonetizationConfig",
+                    "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13OpenWebCommon13OWIAUDelegateP11onNewConfig6configyAA017OWIAUMonetizationG0VSg_tF",
+            "mangledName": "$s13OpenWebCommon13OWIAUDelegateP11onNewConfig6configyAA017OWIAUMonetizationG0VSg_tF",
             "moduleName": "OpenWebCommon",
             "genericSig": "<τ_0_0 where τ_0_0 : OpenWebCommon.OWIAUDelegate>",
             "sugared_genericSig": "<Self where Self : OpenWebCommon.OWIAUDelegate>",
@@ -3863,6 +5361,48 @@
                 "implicit": true,
                 "reqNewWitnessTableEntry": true,
                 "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sdkVersion",
+            "printedName": "sdkVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13OpenWebCommon14OWIAUProvidingP10sdkVersionSSvp",
+            "mangledName": "$s13OpenWebCommon14OWIAUProvidingP10sdkVersionSSvp",
+            "moduleName": "OpenWebCommon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13OpenWebCommon14OWIAUProvidingP10sdkVersionSSvg",
+                "mangledName": "$s13OpenWebCommon14OWIAUProvidingP10sdkVersionSSvg",
+                "moduleName": "OpenWebCommon",
+                "genericSig": "<τ_0_0 where τ_0_0 : OpenWebCommon.OWIAUProviding>",
+                "sugared_genericSig": "<Self where Self : OpenWebCommon.OWIAUProviding>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
               }
             ]
           },
