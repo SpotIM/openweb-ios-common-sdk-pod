@@ -49,6 +49,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -69,48 +70,6 @@
                 "moduleName": "OpenWebCommon",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon12OWPageViewIdV04postF0SSvs",
-                "mangledName": "$s13OpenWebCommon12OWPageViewIdV04postF0SSvs",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon12OWPageViewIdV04postF0SSvM",
-                "mangledName": "$s13OpenWebCommon12OWPageViewIdV04postF0SSvM",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -134,6 +93,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -154,48 +114,6 @@
                 "moduleName": "OpenWebCommon",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon12OWPageViewIdV04pageeF0SSvs",
-                "mangledName": "$s13OpenWebCommon12OWPageViewIdV04pageeF0SSvs",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon12OWPageViewIdV04pageeF0SSvM",
-                "mangledName": "$s13OpenWebCommon12OWPageViewIdV04pageeF0SSvM",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -536,13 +454,6 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -3886,6 +3797,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -3906,48 +3818,6 @@
                 "moduleName": "OpenWebCommon",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV3rowSivs",
-                "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV3rowSivs",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV3rowSivM",
-                "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV3rowSivM",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -3971,6 +3841,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -3991,48 +3862,6 @@
                 "moduleName": "OpenWebCommon",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV6columnSivs",
-                "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV6columnSivs",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV6columnSivM",
-                "mangledName": "$s13OpenWebCommon23OWIAUCampaignIdentifierV6columnSivM",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -4300,10 +4129,10 @@
             "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequencySiSgvp",
             "moduleName": "OpenWebCommon",
             "declAttributes": [
-              "HasInitialValue",
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -4332,56 +4161,6 @@
                 "moduleName": "OpenWebCommon",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Int?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequencySiSgvs",
-                "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequencySiSgvs",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequencySiSgvM",
-                "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV12adsFrequencySiSgvM",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -4427,6 +4206,7 @@
               "HasStorage",
               "AccessControl"
             ],
+            "isLet": true,
             "hasStorage": true,
             "accessors": [
               {
@@ -4469,70 +4249,6 @@
                 "moduleName": "OpenWebCommon",
                 "implicit": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Dictionary",
-                    "printedName": "[OpenWebCommon.OWIAUTmsComponent : [OpenWebCommon.OWIAUCampaignIdentifier]]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "OWIAUTmsComponent",
-                        "printedName": "OpenWebCommon.OWIAUTmsComponent",
-                        "usr": "s:13OpenWebCommon17OWIAUTmsComponentO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[OpenWebCommon.OWIAUCampaignIdentifier]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "OWIAUCampaignIdentifier",
-                            "printedName": "OpenWebCommon.OWIAUCampaignIdentifier",
-                            "usr": "s:13OpenWebCommon23OWIAUCampaignIdentifierV"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:SD"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV18componentToSlotMapSDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGvs",
-                "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV18componentToSlotMapSDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGvs",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:13OpenWebCommon23OWIAUMonetizationConfigV18componentToSlotMapSDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGvM",
-                "mangledName": "$s13OpenWebCommon23OWIAUMonetizationConfigV18componentToSlotMapSDyAA17OWIAUTmsComponentOSayAA23OWIAUCampaignIdentifierVGGvM",
-                "moduleName": "OpenWebCommon",
-                "implicit": true,
-                "accessorKind": "_modify"
               }
             ]
           },
