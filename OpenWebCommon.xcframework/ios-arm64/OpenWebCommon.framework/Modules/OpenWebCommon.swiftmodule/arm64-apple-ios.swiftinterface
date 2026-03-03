@@ -1,9 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
-// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OpenWebCommon
-// swift-module-flags-ignorable:  -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name OpenWebCommon
 import Foundation
-@_exported import OpenWebCommon
 import Swift
 import UIKit
 import _Concurrency
@@ -15,8 +13,8 @@ public typealias OWCommentId = Swift.String
 public typealias OWUserId = Swift.String
 public typealias OWFilterTabId = Swift.String
 public struct OWPageViewId {
-  public var postId: OpenWebCommon.OWPostId
-  public var pageViewId: Swift.String
+  public let postId: OpenWebCommon.OWPostId
+  public let pageViewId: Swift.String
   public init(postId: OpenWebCommon.OWPostId, pageViewId: Swift.String)
 }
 public enum OWIAUAdConfiguration {
@@ -35,12 +33,12 @@ public enum OWIAUSettingsAdHeightMode : Swift.CaseIterable, Swift.Codable, Swift
   case fixed
   case dynamic
   public static func == (a: OpenWebCommon.OWIAUSettingsAdHeightMode, b: OpenWebCommon.OWIAUSettingsAdHeightMode) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [OpenWebCommon.OWIAUSettingsAdHeightMode]
   nonisolated public static var allCases: [OpenWebCommon.OWIAUSettingsAdHeightMode] {
     get
   }
   public func encode(to encoder: any Swift.Encoder) throws
-  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -51,12 +49,12 @@ public enum OWIAUTmsComponent : Swift.Codable, Swift.CaseIterable, Swift.Hashabl
   case inConversationAds
   case addOn
   public static func == (a: OpenWebCommon.OWIAUTmsComponent, b: OpenWebCommon.OWIAUTmsComponent) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
   public typealias AllCases = [OpenWebCommon.OWIAUTmsComponent]
   nonisolated public static var allCases: [OpenWebCommon.OWIAUTmsComponent] {
     get
   }
   public func encode(to encoder: any Swift.Encoder) throws
-  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -122,9 +120,9 @@ public enum OWIAUVideoProgress : Swift.Codable, Swift.Equatable {
   public var description: Swift.String {
     get
   }
+  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: OpenWebCommon.OWIAUVideoProgress, b: OpenWebCommon.OWIAUVideoProgress) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
-  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -132,9 +130,9 @@ public enum OWIAUVideoProgress : Swift.Codable, Swift.Equatable {
 }
 public enum OWIAUViewSourceType : Swift.Codable, Swift.Equatable {
   case ad
+  public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: OpenWebCommon.OWIAUViewSourceType, b: OpenWebCommon.OWIAUViewSourceType) -> Swift.Bool
   public func encode(to encoder: any Swift.Encoder) throws
-  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
@@ -149,23 +147,21 @@ extension OpenWebCommon.OWIAUMonetizationConfig {
   @objc deinit
 }
 public struct OWIAUCampaignIdentifier : Swift.Codable, Swift.Equatable, Swift.Hashable {
-  public var row: Swift.Int
-  public var column: Swift.Int
+  public let row: Swift.Int
+  public let column: Swift.Int
   public init(row: Swift.Int, column: Swift.Int)
   public static func == (a: OpenWebCommon.OWIAUCampaignIdentifier, b: OpenWebCommon.OWIAUCampaignIdentifier) -> Swift.Bool
-  public func encode(to encoder: any Swift.Encoder) throws
   public func hash(into hasher: inout Swift.Hasher)
+  public func encode(to encoder: any Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
   public init(from decoder: any Swift.Decoder) throws
 }
 public struct OWIAUMonetizationConfig : Swift.Codable {
-  public var adsFrequency: Swift.Int?
-  public var componentToSlotMap: [OpenWebCommon.OWIAUTmsComponent : [OpenWebCommon.OWIAUCampaignIdentifier]]
-  #if compiler(>=5.3) && $NonescapableTypes
+  public let adsFrequency: Swift.Int?
+  public let componentToSlotMap: [OpenWebCommon.OWIAUTmsComponent : [OpenWebCommon.OWIAUCampaignIdentifier]]
   public init(adsFrequency: Swift.Int?, componentToSlotMap: [OpenWebCommon.OWIAUTmsComponent : [OpenWebCommon.OWIAUCampaignIdentifier]])
-  #endif
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
@@ -174,9 +170,7 @@ public protocol OWIAUAdSettingsProtocol {
   var heightMode: OpenWebCommon.OWIAUSettingsAdHeightMode { get }
 }
 public protocol OWIAUSettingsProtocol {
-  #if compiler(>=5.3) && $NonescapableTypes
   var storeURL: Swift.String? { get }
-  #endif
 }
 public typealias OWIAUAdViewActionsCallbacks = (OpenWebCommon.OWIAUViewActionCallbackType, OpenWebCommon.OWIAUViewSourceType, OpenWebCommon.OWPostId) -> Swift.Void
 public typealias OWIAUViewCompletion = (Swift.Result<UIKit.UIView, OpenWebCommon.OWIAUError>) -> Swift.Void
@@ -189,20 +183,14 @@ public class OWIAUAdSettings : OpenWebCommon.OWIAUAdSettingsProtocol {
 }
 public protocol OWIAUDelegate : AnyObject {
   func getPageViewId(postId: OpenWebCommon.OWPostId) -> Swift.String
-  #if compiler(>=5.3) && $NonescapableTypes
   func onNewConfig(config: OpenWebCommon.OWIAUMonetizationConfig?)
-  #endif
 }
 public protocol OWIAUProviding {
-  #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any OpenWebCommon.OWIAUDelegate)? { get set }
-  #endif
   var spotId: OpenWebCommon.OWSpotId { get set }
   var settings: any OpenWebCommon.OWIAUSettingsProtocol { get set }
   var sdkVersion: Swift.String { get }
-  #if compiler(>=5.3) && $NonescapableTypes
   func ad(postId: OpenWebCommon.OWPostId, settings: any OpenWebCommon.OWIAUAdSettingsProtocol, viewEventCallbacks: OpenWebCommon.OWIAUAdViewEventsCallbacks?, actionsCallbacks: OpenWebCommon.OWIAUAdViewActionsCallbacks?, completion: @escaping OpenWebCommon.OWIAUViewCompletion)
-  #endif
 }
 extension OpenWebCommon.OWIAUVideoProgress : Swift.Hashable {}
 extension OpenWebCommon.OWIAUViewSourceType : Swift.Hashable {}
