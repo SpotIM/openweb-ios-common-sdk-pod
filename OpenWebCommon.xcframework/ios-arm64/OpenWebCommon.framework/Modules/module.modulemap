@@ -1,0 +1,6 @@
+framework module OpenWebCommon {
+  umbrella header "OpenWebCommon.h"
+  export *
+
+  module * { export * }
+}
